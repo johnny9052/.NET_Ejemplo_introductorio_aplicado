@@ -25,9 +25,9 @@ namespace MiPrimerProyecto
 
             ClsPersona persona = new ClsPersona(nombre,cedula,fecha);
 
-            MessageBox.Show("Nombre: " + persona.GetNombre() + "\n" +
-                            "Cedula: " + persona.GetCedula() + "\n" +
-                            "Fecha: " + persona.GetFecha() + "\n");
+            MessageBox.Show("Nombre: " + persona.nombre + "\n" +
+                            "Cedula: " + persona.cedula + "\n" +
+                            "Fecha: " + persona.fecha + "\n");
         }
     }
 }
